@@ -3,7 +3,7 @@ import time
 import logging
 
 # Logging konfigurieren
-logging.basicConfig(filename='/home/pi/pump_control.log', level=logging.INFO,
+logging.basicConfig(filename='/home/plant-server-user/Desktop/pump_control.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
 # GPIO-Pins für die Relaismodule (je eine Pumpe pro Pin)
